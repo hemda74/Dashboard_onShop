@@ -46,7 +46,7 @@ export default function Dashboard() {
 			<header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
 				<nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
 					<Link
-						href="#"
+						href="/product-details"
 						className="flex items-center gap-2 text-lg font-semibold md:text-base"
 					>
 						<Package2 className="h-6 w-6" />
@@ -55,34 +55,34 @@ export default function Dashboard() {
 						</span>
 					</Link>
 					<Link
-						href="#"
+						href="/product-details"
 						className="text-foreground transition-colors hover:text-foreground"
 					>
 						Dashboard
 					</Link>
 					<Link
-						href="#"
+						href="/product-details"
 						className="text-muted-foreground transition-colors hover:text-foreground"
 					>
 						Orders
 					</Link>
 					<Link
-						href="#"
+						href="/product-details"
 						className="text-muted-foreground transition-colors hover:text-foreground"
 					>
 						Products
 					</Link>
 					<Link
-						href="#"
+						href="/product-details"
 						className="text-muted-foreground transition-colors hover:text-foreground"
 					>
 						Customers
 					</Link>
 					<Link
-						href="#"
+						href="/settings"
 						className="text-muted-foreground transition-colors hover:text-foreground"
 					>
-						Analytics
+						Settings
 					</Link>
 				</nav>
 				<Sheet>
@@ -102,7 +102,7 @@ export default function Dashboard() {
 					<SheetContent side="left">
 						<nav className="grid gap-6 text-lg font-medium">
 							<Link
-								href="#"
+								href="/product-details"
 								className="flex items-center gap-2 text-lg font-semibold"
 							>
 								<Package2 className="h-6 w-6" />
@@ -111,34 +111,34 @@ export default function Dashboard() {
 								</span>
 							</Link>
 							<Link
-								href="#"
+								href="/product-details"
 								className="hover:text-foreground"
 							>
 								Dashboard
 							</Link>
 							<Link
-								href="#"
+								href="/dashboard"
 								className="text-muted-foreground hover:text-foreground"
 							>
 								Orders
 							</Link>
 							<Link
-								href="#"
+								href="/product-details"
 								className="text-muted-foreground hover:text-foreground"
 							>
 								Products
 							</Link>
 							<Link
-								href="#"
+								href="/product-details"
 								className="text-muted-foreground hover:text-foreground"
 							>
 								Customers
 							</Link>
 							<Link
-								href="#"
+								href="/settings"
 								className="text-muted-foreground hover:text-foreground"
 							>
-								Analytics
+								Settings
 							</Link>
 						</nav>
 					</SheetContent>
@@ -282,7 +282,7 @@ export default function Dashboard() {
 								size="sm"
 								className="ml-auto gap-1"
 							>
-								<Link href="#">
+								<Link href="/product-details">
 									View All
 									<ArrowUpRight className="h-4 w-4" />
 								</Link>
