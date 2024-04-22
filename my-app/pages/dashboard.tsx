@@ -55,19 +55,19 @@ export default function Dashboard() {
 						</span>
 					</Link>
 					<Link
-						href="/product-details"
+						href="/dashborad"
 						className="text-foreground transition-colors hover:text-foreground"
 					>
 						Dashboard
 					</Link>
 					<Link
-						href="/product-details"
+						href="/order"
 						className="text-muted-foreground transition-colors hover:text-foreground"
 					>
 						Orders
 					</Link>
 					<Link
-						href="/product-details"
+						href="/products"
 						className="text-muted-foreground transition-colors hover:text-foreground"
 					>
 						Products
@@ -76,7 +76,14 @@ export default function Dashboard() {
 						href="/product-details"
 						className="text-muted-foreground transition-colors hover:text-foreground"
 					>
-						Customers
+						Product_Details
+					</Link>
+
+					<Link
+						href="/order/order-details"
+						className="text-muted-foreground transition-colors hover:text-foreground"
+					>
+						Order_Details
 					</Link>
 					<Link
 						href="/settings"
@@ -117,7 +124,7 @@ export default function Dashboard() {
 								Dashboard
 							</Link>
 							<Link
-								href="/dashboard"
+								href="/order"
 								className="text-muted-foreground hover:text-foreground"
 							>
 								Orders
