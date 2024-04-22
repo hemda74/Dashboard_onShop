@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
+import bgimage from '@/public/bg-image.jpg';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -51,12 +51,18 @@ export default function Dashboard() {
 								required
 							/>
 						</div>
-						<Button
-							type="submit"
-							className="w-full"
+						<Link
+							href="/dashboard"
+							className="underline"
 						>
-							Login
-						</Button>
+							<Button
+								type="submit"
+								className="w-full"
+							>
+								Login
+							</Button>
+						</Link>
+
 						<Button
 							variant="outline"
 							className="w-full"
@@ -77,7 +83,7 @@ export default function Dashboard() {
 			</div>
 			<div className="hidden bg-muted lg:block">
 				<Image
-					src="/placeholder.svg"
+					src={bgimage}
 					alt="Image"
 					width="1920"
 					height="1080"
